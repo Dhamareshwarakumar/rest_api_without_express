@@ -114,10 +114,10 @@ async function deleteProduct(req, res, id) {
 }
 
 function not_found(req, res) {
-    res.writeHead(404, { 'Content-Type': 'application/json' });
+    res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify([
-        { message: 'Page Not Found' },
-        { suggestion: 'Please Visit product api (/api/products)' }
+        { message: 'Page Not Found...' },
+        { suggestion: 'Please Visit product api (/api/products/)' }
     ]));
 }
 

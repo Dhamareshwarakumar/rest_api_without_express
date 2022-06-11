@@ -18,3 +18,9 @@ Simple API used to demonstrate basic nodejs API without using any frameworks lik
 -   `cd rest_api_without_express`
 -   `npm install`
 -   `npm start`
+
+## Download & Run (Docker)
+
+-   `install Docker`
+-   `Move to the Project Folder`
+-   `docker-compose up --build`
